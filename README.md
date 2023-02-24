@@ -1,6 +1,6 @@
 # PWA_Text_Editor
 ## Description
-
+This is a browser-based text editor that functions as a single-page application that also functions as a progressive web app (PWA). It uses data persistence techniques for redundancy and can function offline. The app implements methods for getting and storing data to an IndexedDB database using a lightweight wrapper called idb. The application is deployed to Heroku.
 ## Table of Contents
 * [Installation](#installation)
 * [Links](#Links)
@@ -12,6 +12,7 @@
 
 ## Installation
 
+No Installation requirments. Option to download the webpage as an app by clicking the install button on the page.
 
 
 ## Usage
