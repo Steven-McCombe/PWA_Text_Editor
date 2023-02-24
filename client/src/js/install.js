@@ -42,5 +42,8 @@ butInstall.addEventListener('click', async () => {
     }
 });
   
-// TODO: Add an handler for the `appinstalled` event
-window.addEventListener('appinstalled', (event) => {});
+// handler for the `appinstalled` event
+window.addEventListener('appinstalled', (event) => {
+    // Display a confirmation message to the user
+    console.log('Jate has been installed on your device!');
+  });
