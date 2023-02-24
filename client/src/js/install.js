@@ -5,7 +5,8 @@ const butInstall = document.getElementById('buttonInstall');
 window.addEventListener('beforeinstallprompt', (event) => {
     // Prevent from automatically showing the prompt
     event.preventDefault();
-    
+        // Remove the hidden class from the button.
+        butInstall.classList.toggle('hidden', false)
     // Show the prompt to the user when they click a button or perform some other action
     const installButton = document.getElementById('install-button');
     installButton.addEventListener('click', () => {
